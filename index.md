@@ -1,6 +1,6 @@
 # Scuff Development's Project Site
 
-## [Main Project Rep](https://bboudre.github.io/Scuff-Development/)
+## [Main Project Repo](https://bboudre.github.io/Scuff-Development/)
 
 ### Links to project files 
 - [Problem Statement](problem.md)
