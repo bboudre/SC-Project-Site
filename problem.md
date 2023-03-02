@@ -32,17 +32,19 @@ With the combined effort of database/web server use, APIs, and Sensors, we would
 * Produce an interactive map that will be a collection of NMSU parking spaces where users can search for lots closest to their desired building location. 
 
 The pseudo code for the mechanics of the ultrasonic sensor would be as follows:
-* * Func checkSpot(Sensor echo (data)) {
 
-// If there is an echo, there is an object in front of sensor
-If (echo)
-Return Taken
-
-// No echo = no object, parking spot is free
-Else
-Return Open
+```
+Func checkSpot(Sensor echo (data)) {
+  
+  // If there is an echo, there is an object in front of sensor
+  If (echo)
+    Return Taken
+  
+  // No echo = no object, parking spot is free
+  Else
+    Return Open
 }
-* * 
+```
 
 ### 2.3 User Characteristics and Expectations
 The expectations we will have for users is the following:
