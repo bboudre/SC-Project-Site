@@ -25,7 +25,10 @@ The overall Scope of this product will be the following:
 ### 2.1 Context of Product
 This product could branch out to other bigger buildings with large parking spaces.But, for Scuff Development this will mostly be based on the bigger parking lot next to Science Hall on NMSU Campus. The application will be accessed through your phone, we will be developing for IOS users specifically (ie.Swift). 
 
-### 2.2 Product Functions (general)
+### 2.2 Domain Model with Description
+The domain model is for the class of the user. The user is first prompted to select if they are a student or faculty member. Based on that if they are a student they will asked what permit they have. The functions of the app then use the intial user data for the campus map and finding parking. If the setting app is selected the user can change the intial data sumbited and update.
+
+### 2.3 Product Functions (general)
 With the combined effort of database/web server use, APIs, and Sensors, we would be able to:
 * Have a service that will help out students and also faculty on NMSU campus. 
 * Reduce the amount of driving around to find an open parking space.
@@ -46,15 +49,15 @@ Func checkSpot(Sensor echo (data)) {
 }
 ```
 
-### 2.3 User Characteristics and Expectations
+### 2.4 User Characteristics and Expectations
 The expectations we will have for users is the following:
 * Moderate knowledge of using the internet/ knowledge over common UI design within using any app on a phone.
 * Users will also be mainly college students and also faculty. 
 
-### 2.4 Constraints
+### 2.5 Constraints
 Most of the Constraints for this Project will be time management. Since, we can’t possibly launch a full-scale project. We will be testing the main features using simulated data.    
 
-### 2.5 Assumptions and Dependencies
+### 2.6 Assumptions and Dependencies
 The assumptions we will have for this project will be the following: 
 * The use of Simulations
 * One working prototype of the sensor

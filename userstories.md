@@ -22,15 +22,12 @@ seamlessly translate to the in-app navigation to the parking spot:
      Senior Student At NMSU with some development knowledge.
 	 	 	   
 As a student that has the NMSU parking map like the back of my hand. I would love a 
-dedicated app that will show the closest parking lot with open spots. Navigation would be nice but not 
-really an importance.
+dedicated app that will show the closest parking lot with open spots. Navigation would be nice but not really an importance.
 
-Elaboration: User should be able to open the app. Input there need of parking lot closest to 
-the building they need to go. Lastly, showing either lots with open parking spaces or actual parking spaces 
+Elaboration: User should be able to open the app. Input there need of parking lot closest to the building they need to go. Lastly, showing either lots with open parking spaces or actual parking spaces 
 that are open.
 			
-Constraint: Amount of time allotted to development, Knowledge in using sensors, How fast 
-the app will update with new information.
+Constraint: Amount of time allotted to development, Knowledge in using sensors, How fast the app will update with new information.
 	 
 
 Effort Estimation: ~100-120 person-hours
@@ -54,7 +51,25 @@ Lastly, how much cost for Said app?
 			
 Effort Estimation: ~150-200 person-hours
 			
-Intergrated Tools: the use of a microcontroller sensor combo an iPhone, and also a local 
-server to seamlessly send out notifications.
+Intergrated Tools: the use of a microcontroller sensor combo an iPhone, and also a local server to seamlessly send out notifications.
 	 	 	
 Acceptance Test: An app that runs flawlessly and is consistent in its operation
+
+
+     Sophmore purchased a commuter permit 
+
+Due to my classes being further away from free parking I purchased a commuter permit. I would like to have the option to update that I have a permit and have the possible parking shown updated. 
+
+Elaboration: Users should have the ability to change their intial permit type and have the app update and correspond. 
+	 	 	
+Constraints: None
+				
+Effort Estimation: ~30-40 person-hours
+			
+Intergrated Tools : Your device either iPhone or android
+	 	 	
+Acceptance Test: Perform the task of having the user input. The needed input, and then 
+seamlessly translate to the in-app navigation. 
+
+
+
