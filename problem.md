@@ -28,7 +28,7 @@ This product could branch out to other bigger buildings with large parking space
 ### 2.2 Domain Model with Description
 ![Domain Model](/Domain%20Model-User.png)
 
-The domain model is for the class of the user. The user is first prompted to select if they are a student or faculty member. Based on that if they are a student they will asked what permit they have. The functions of the app then use the intial user data for the campus map and finding parking. If the setting app is selected the user can change the intial data sumbited and update.
+The domain model is for the user class. The user must select if they are a student or faculty member. If they are a student, they will be asked about their permit. The app then uses the initial user data for the campus map and finding parking functions. In the settings the user can change the initial data submitted. 
 
 ### 2.3 Product Functions (general)
 With the combined effort of database/web server use, APIs, and Sensors, we would be able to:
