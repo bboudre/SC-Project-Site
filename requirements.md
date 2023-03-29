@@ -4,12 +4,12 @@
 ### 1.1 Purpose of Product
 Looking for parking around campus can be a time-consuming task. In 2022 the biggest freshman class since 2009 enrolled at NMSU main campus (2.6 increase). With more students enrolled, the number of available parking spaces has been lessened. There are about 13,500 parking spaces available and 14,268 students enrolled as of 2022. Free lots do offer available parking spots but at the disadvantage of a distance. 
 
-The Possible solution is an application with GPS tracking that will be able to let you know when an open parking space near your preferred location is available. The user would input their preferred location and the system would let the user know the closest available spots. Spot allocation will be on a first come/ first serve basis.
+The possible solution is an application with GPS tracking that will be able to let you know when an open parking space near your preferred location is available. The user would input their preferred location and the system would let the user know the closest available spots. Spot allocation will be on a first come/ first serve basis.
 
 ### 1.2 Scope of Product
 The overall Scope of this product will be the following: 
 * Interactive map that shows users the overall parking map of NMSU and which lots are closest based on a search bar. 
-* Create a Database that will have an accurate model of the real-world parking space right next to Science Hall on NMSU Campus.
+* Create a database that will have an accurate model of the real-world parking space right next to Science Hall on NMSU Campus.
 * Create a working prototype of an Ultrasonic sensor that will keep a running tally; of the number of cars within the parking lot.
 * The use of Google Map API to help the user get to said parking lot.
 * Simple UI design to create a seamless user experience.
@@ -26,7 +26,7 @@ The overall Scope of this product will be the following:
 This product could branch out to other bigger buildings with large parking spaces.But, for Scuff Development this will mostly be based on the bigger parking lot next to Science Hall on NMSU Campus. The application will be accessed through your phone, we will be developing for IOS users specifically (ie.Swift). 
 
 ### 2.2 Domain Model with Description
-![Domain Model](/Domain%20Model-User.png)
+![Domain Model](DM.png)
 
 The domain model is for the user class. The user must select if they are a student or faculty member. If they are a student, they will be asked about their permit. The app then uses the initial user data for the campus map and finding parking functions. In the settings the user can change the initial data submitted. 
 
