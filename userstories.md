@@ -1,6 +1,6 @@
 # User Stories
 
-**Freshman student at NMSU**
+     Freshman student at NMSU
 
 *As a person that’s totally new to the parking situation at NMSU Campus, I would like to have a dedicated app that will show where I can park based on my permit, open spots, and how to navigate to the spot.*
 
@@ -14,7 +14,7 @@ Acceptance Test: Perform the task of having the user input. Then
 seamlessly translate to the in-app navigation to the parking spot.
 	 
 	 	 	
-**Senior student at NMSU with some development knowledge**
+     Senior student at NMSU with some development knowledge
 	 	 	   
 *As a student that has the NMSU parking map like the back of my hand. I would love a dedicated app that will show the closest parking lot with open spots. Navigation would be nice but not really an importance.*
 
@@ -29,7 +29,7 @@ Intergrated Tools: IPhone, some type of mini computer that will take the sensor 
 Acceptance Test: Seamless use of the app running and use. It updates at least every time the user requests or automatically.
 
 
-**Professor at NMSU**
+     Professor at NMSU
 	 	 	
 *As a faculty member there is a lot of options that are closer to the building I’m teaching in. The use of an official parking app for NMSU would be nice if it had the functionality of telling me the closest parking space that’s open. The spot chosen should have shortest distance to walk to the building I want to go to. Also a nice feature would to have an update if there is any closer spaces open than the original option.*
 	 	 	
@@ -44,7 +44,7 @@ Intergrated Tools: The use of a microcontroller sensor combo an iPhone, and also
 Acceptance Test: An app that runs flawlessly and is consistent in its operation
 
 
-**Sophmore purchased a commuter permit**
+     Sophmore purchased a commuter permit
 
 *Due to my classes being further away from free parking I purchased a commuter permit. I would like to have the option to update that I have a permit and have the possible parking shown updated.*
 
@@ -60,7 +60,7 @@ Acceptance Test: Perform the task of having the user input. The needed input, an
 seamlessly translate to the in-app navigation. 
 
 
-**Easy accessibility and navigation**
+     Easy accessibility and navigation
 
 *I want an app that is easy to navigate. I don't want anything too overcomplicated and fancy. I want to use this as a tool that is straight to the point.*
 
@@ -73,21 +73,6 @@ Effort Estimation: ~20 person-hours
 Intergrated Tools: Your device either iPhone or android
 	 	 	
 Acceptance Test: Find parking and access the map fast
-
-
-**Accurate parking availability**
-
-Using this app I want to be able to know that there is parking availabile when I get to the designated spot. 
-
-Elaboration: The app should send real time data of when a parking spot is open/taken. The sensor should be able to detect and send correct data back. 
-	 	 	
-Constraints: None
-				
-Effort Estimation: ~30-40 person-hours
-			
-Intergrated Tools: The use of a microcontroller sensor combo an iPhone, and also a local server to seamlessly send out notifications.
-	 	 	
-Acceptance Test: An app that runs flawlessly and is consistent in its operation
 
 
 
