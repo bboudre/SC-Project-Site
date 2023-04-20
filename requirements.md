@@ -11,7 +11,7 @@ The overall Scope of this product will be the following:
 * Interactive map that shows users the overall parking map of NMSU and which lots are closest based on a search bar. 
 * Create a database that will have an accurate model of the real-world parking space right next to Science Hall on NMSU Campus.
 * Create a working prototype of an Ultrasonic sensor that will keep a running tally; of the number of cars within the parking lot.
-* The use of Google Map API to help the user get to said parking lot.
+* The use of Apple Map API to help the user get to said parking lot.
 * Simple UI design to create a seamless user experience.
 
 ### 1.3 Acronyms, Abbreviations, Definitions
@@ -23,7 +23,7 @@ The overall Scope of this product will be the following:
 
 ## General Description of Product
 ### 2.1 Context of Product
-This product could branch out to other bigger buildings with large parking spaces.But, for Scuff Development this will mostly be based on the bigger parking lot next to Science Hall on NMSU Campus. The application will be accessed through your phone, we will be developing for IOS users specifically (ie.Swift). 
+This product could branch out to other bigger buildings with large parking spaces. But, for Scuff Development this will mostly be based on the bigger parking lot next to Science Hall on NMSU Campus. The application will be accessed through your phone, we will be developing for IOS users specifically (ie.Swift). 
 
 ### 2.2 Domain Model with Description
 ![Domain Model](https://github.com/bboudre/SC-Project-Site/blob/main/DM.png)
@@ -78,7 +78,7 @@ The user should have the ability to operate the software on their phone. The int
 The software will need possibly about up to 150 MB of space to operate. Depending on the progress of the project the number may change. 
 
 ### 4.3 Design Constraints
-Some of the Design Constraints for us would be deciding on just going with an Arduino Uno board. Instead of going fully into creating a custom board-circuit.Since, we are more focused on the actual programming side, not the physical tech side.
+Some of the Design Constraints for us would be deciding on just going with an Arduino Uno board. Instead of going fully into creating a custom board-circuit. Since, we are more focused on the actual programming side, not the physical tech side.
 
 ### 4.4 Quality Requirements
 The quality expectation for this would be; an usable app

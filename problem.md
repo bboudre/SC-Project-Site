@@ -7,15 +7,15 @@ Looking for parking around campus can be a time-consuming task. In 2022 the bigg
 The Possible solution is an application with GPS tracking that will be able to let you know when an open parking space near your preferred location is available. The user would input their preferred location and the system would let the user know the closest available spots. Spot allocation will be on a first come/ first serve basis.
 
 ### 1.2 Scope of Product
-The overall Scope of this product will be the following: 
+The overall scope of this product will be the following: 
 * Interactive map that shows users the overall parking map of NMSU and which lots are closest based on a search bar. 
 * Create a Database that will have an accurate model of the real-world parking space right next to Science Hall on NMSU Campus.
 * Create a working prototype of an Ultrasonic sensor that will keep a running tally; of the number of cars within the parking lot.
-* The use of Google Map API to help the user get to said parking lot.
+* The use of Apple Maps API to help the user get to said parking lot.
 * Simple UI design to create a seamless user experience.
 
 ### 1.3 Acronyms, Abbreviations, Definitions
-- APIs 
+- APIs (Apple Maps)
 - Database/Web Server
 - Arduino 
 - - Ultrasonic sensor 
