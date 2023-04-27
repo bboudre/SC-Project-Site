@@ -27,14 +27,15 @@ This is class is used when the user requests navigation to their desired destina
 After the request is made the web server will send back information for the available parking spots open its corresponding lot. The navigation will update the destination as the parking lot. 
 
 ### distance 
-Is the value interpreted by the web server of the number of cars going in and out of the parking lot. 
+The value interpreted by the web server of the number of cars going in and out of the parking lot. 
 
 ### numCars
-it what the web server sends to the database to keep track of the number of cars in the parking lot. 
+It what the web server sends to the database to keep track of the number of cars in the parking lot. 
 
 ## Control Issues
-"Your document should discuss control issues, e.g.: Are you using threading? Is there external communication that affects control? - DELETE AFTERWARDS- Taken from requirements"
+Functionality of the app design depends on the WIFI connection, and users may find it difficult to use the app if traffic is high. The data stream may also be delayed if traffic is high at a given time. 
 
+Reliance on good internet has been one of our biggest constraints, and it also affects the total user experience. If one of the components of our system is down, the whole system is down.
 
 
 
