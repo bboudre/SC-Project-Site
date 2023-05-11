@@ -26,7 +26,7 @@ The overall Scope of this product will be the following:
 This product could branch out to other bigger buildings with large parking spaces. But, for Scuff Development this will mostly be based on the bigger parking lot next to Science Hall on NMSU Campus. The application will be accessed through your phone, we will be developing for IOS users specifically (ie.Swift). 
 
 ### 2.2 Domain Model with Description
-![Domain Model](https://github.com/bboudre/SC-Project-Site/blob/main/DM.png)
+![Domain Model](images/DM.png)
 
 The domain model is for the user class. The user must select if they are a student or faculty member. If they are a student, they will be asked about their permit. The app then uses the initial user data for the campus map and finding parking functions. In the settings the user can change the initial data submitted. 
 
