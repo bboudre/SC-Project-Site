@@ -5,7 +5,7 @@ Application "Aggie Park" that helps you find parking with GPS tracking based on 
 Patrick Jojola, Bianka Boudreaux, Rey Aguirre
 
 ## Links 
-  [Project Site](https://bboudre.github.io/SC-Project-Site/)
+- [Project Site](https://bboudre.github.io/SC-Project-Site/)
 - [Team Repo](https://github.com/bboudre/Scuff-Development)
 - [App Repo (Explains Folder Structure of Aggie Park)](https://github.com/pjojola/Parking_App_CS)
 
