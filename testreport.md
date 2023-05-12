@@ -37,17 +37,26 @@ We validated the features based on User Acceptance Testing (UAT). Each separate 
 
 ### User Stories
 1. Freshman student at NMSU: Accepted
-Acceptance Test: Perform the task of having the user input. Then seamlessly translate to the in-app navigation to the parking spot.
+- Acceptance Test: Perform the task of having the user input. Then seamlessly translate to the in-app navigation to the parking spot.
 
 2. Senior student at NMSU with some development knowledge: In-Progress
-Acceptance Test: Seamless use of the app running and use. It updates at least every time the user requests or automatically.
+- Acceptance Test: Seamless use of the app running and use. It updates at least every time the user requests or automatically.
 
 3. Professor at NMSU: In-Progress
-Acceptance Test: An app that runs flawlessly and is consistent in its operation.
+- Acceptance Test: An app that runs flawlessly and is consistent in its operation.
 
 4. Sophomore purchased a commuter permit: Accepted
-Acceptance Test: Perform the task of having the user input. The needed input, and then seamlessly translate to the in-app navigation.
+- Acceptance Test: Perform the task of having the user input. The needed input, and then seamlessly translate to the in-app navigation.
 
 5. Easy accessibility and navigation: Accepted
-Acceptance Test: Find parking and access the map fast.
+- Acceptance Test: Find parking and access the map fast.
+
+6. Route user location to destination: Accepted
+- Acceptance Test: App updates in realtime giving route on screen
+
+7. Search for destination using MapKit: Accepted 	
+- Acceptance Test: App updates in realtime autocompleting
+
+8. Update parking lots with available parking: In-Progress
+- Acceptance Test: App updates in realtime with correct information 
 
