@@ -1,5 +1,5 @@
 ## ★Future Work★ [May 2023]
-To keep the integrity of documentation this notice is posted as an overiew of changes made and features not implemented.
+To keep the integrity of documentation this notice is posted as an overiew of features not implemented.
 
 * Switch from a local search on MapKit to a custom annotation search. 
     * database for campus buildings' closest parking lots based on permit type
@@ -10,9 +10,9 @@ To keep the integrity of documentation this notice is posted as an overiew of ch
 **Arduino, WIFI module, and sensor are not compatible with each other for the goals of this project**
 * If troubleshooting works connect Arduino and web server to communicate with app 
 * Otherwise research for a more efficient mechanism to detecting open/free parking spots
+* If we had the capital researched into making their own microcontroller design / or also go the route of Raspberry pi
 
 # Requirements
-
 ## Introduction
 ### 1.1 Purpose of Product
 Looking for parking around campus can be a time-consuming task. In 2022 the biggest freshman class since 2009 enrolled at NMSU main campus (2.6 increase). With more students enrolled, the number of available parking spaces has been lessened. There are about 13,500 parking spaces available and 14,268 students enrolled as of 2022. Free lots do offer available parking spots but at the disadvantage of a distance. 

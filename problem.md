@@ -1,5 +1,5 @@
 ## ★Future Work★ [May 2023]
-To keep the integrity of documentation this notice is posted as an overiew of changes made and features not implemented.
+To keep the integrity of documentation this notice is posted as an overiew of features not implemented.
 
 * Switch from a local search on MapKit to a custom annotation search. 
     * database for campus buildings' closest parking lots based on permit type
@@ -10,6 +10,7 @@ To keep the integrity of documentation this notice is posted as an overiew of ch
 **Arduino, WIFI module, and sensor are not compatible with each other for the goals of this project**
 * If troubleshooting works connect Arduino and web server to communicate with app 
 * Otherwise research for a more efficient mechanism to detecting open/free parking spots
+* If we had the capital researched into making their own microcontroller design / or also go the route of Raspberry pi
 
 # Problem Statement
 
