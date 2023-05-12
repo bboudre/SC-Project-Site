@@ -10,7 +10,7 @@ To keep the integrity of documentation this notice is posted as an overiew of fe
 **Arduino, WIFI module, and sensor are not compatible with each other for the goals of this project**
 * If troubleshooting works connect Arduino and web server to communicate with app 
 * Otherwise research for a more efficient mechanism to detecting open/free parking spots
-* If we had the capital researched into making their own microcontroller design / or also go the route of Raspberry pi
+* If we had the capital, we could have researched into making our own microcontroller design / or also go the route of Raspberry pi
 
 # Design Architecture
 ## Project Overview
