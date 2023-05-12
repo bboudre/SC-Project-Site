@@ -1,6 +1,9 @@
 # Scuff Development's Project Site 
 Application "Aggie Park" that helps you find parking with GPS tracking based on your preferred campus building destination. 
 
+**Team Members**
+Patrick Jojola, Bianka Boudreaux, Rey Aguirre
+
 ## Links 
 ### Team Repo 
 [Project Site](https://github.com/bboudre/Scuff-Development)

@@ -1,4 +1,4 @@
-# Scuff Development - Parking App
+# Scuff Development
 Application "Aggie Park" that helps you find parking with GPS tracking based on your preferred campus building destination. 
 
 **Team Members**
