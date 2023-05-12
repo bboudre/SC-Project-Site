@@ -2,9 +2,7 @@
 Application "Aggie Park" that helps you find parking with GPS tracking based on your preferred campus building destination. 
 
 **Team Members**
-- Patrick Jojola
-- Bianka Boudreaux
-- Rey Aguirre
+Patrick Jojola, Bianka Boudreaux, Rey Aguirre
 
 ## Table of Contents
 - [Problem Statement](problem.md)

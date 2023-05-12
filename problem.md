@@ -1,3 +1,16 @@
+## ★Future Work★ [May 2023]
+To keep the integrity of documentation this notice is posted as an overiew of changes made and features not implemented.
+
+* Switch from a local search on MapKit to a custom annotation search. 
+    * database for campus buildings' closest parking lots based on permit type
+* Map parking lot annotations and reroute polyline to chosen parking lot 
+* Update real-time for duration to get from user location to destination 
+* Send notifications to user if closer parking is found if desired 
+
+**Arduino, WIFI module, and sensor are not compatible with each other for the goals of this project**
+* If troubleshooting works connect Arduino and web server to communicate with app 
+* Otherwise research for a more efficient mechanism to detecting open/free parking spots
+
 # Problem Statement
 
 ## Introduction
@@ -26,7 +39,7 @@ The overall scope of this product will be the following:
 This product could branch out to other bigger buildings with large parking spaces.But, for Scuff Development this will mostly be based on the bigger parking lot next to Science Hall on NMSU Campus. The application will be accessed through your phone, we will be developing for IOS users specifically (ie.Swift). 
 
 ### 2.2 Domain Model with Description
-![Domain Model](/Domain%20Model-User.png)
+![Domain Model](images/DM.png)
 
 The domain model is for the user class. The user must select if they are a student or faculty member. If they are a student, they will be asked about their permit. The app then uses the initial user data for the campus map and finding parking functions. In the settings the user can change the initial data submitted. 
 

@@ -1,10 +1,10 @@
 # Scuff Development's Project Site 
 Application "Aggie Park" that helps you find parking with GPS tracking based on your preferred campus building destination. 
 
-### Links 
-## Team Repo 
+## Links 
+### Team Repo 
 [Project Site](https://github.com/bboudre/Scuff-Development)
-## App Repo (Explains Folder Structure of Aggie Park)
+### App Repo (Explains Folder Structure of Aggie Park)
 [Parking App](https://github.com/pjojola/Parking_App_CS)
 
 ## ★Current Project Status★ [May 2023]
