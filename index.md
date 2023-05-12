@@ -13,8 +13,8 @@ Patrick Jojola, Bianka Boudreaux, Rey Aguirre
 - [Test Report](testreport.md)
 
 ## Links 
-[Team Repo](https://github.com/bboudre/Scuff-Development)
-[App Repo (Explains Folder Structure of Aggie Park)](https://github.com/pjojola/Parking_App_CS)
+- [Team Repo](https://github.com/bboudre/Scuff-Development)
+- [App Repo (Explains Folder Structure of Aggie Park)](https://github.com/pjojola/Parking_App_CS)
 
 ## ★Current Project Status★ [May 2023]
 Due to the time given for the project, the Arduino, web server, and application run independently of each other. 
