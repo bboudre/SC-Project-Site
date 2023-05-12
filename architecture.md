@@ -1,7 +1,17 @@
-# Design Architecture
-Scuff Development
-Bianka Boudreaux, Patrick Jojola, Rey Aguirre
+## ★Future Work★ [May 2023]
+To keep the integrity of documentation this notice is posted as an overiew of changes made and features not implemented.
 
+* Switch from a local search on MapKit to a custom annotation search. 
+    * database for campus buildings' closest parking lots based on permit type
+* Map parking lot annotations and reroute polyline to chosen parking lot 
+* Update real-time for duration to get from user location to destination 
+* Send notifications to user if closer parking is found if desired 
+
+**Arduino, WIFI module, and sensor are not compatible with each other for the goals of this project**
+* If troubleshooting works connect Arduino and web server to communicate with app 
+* Otherwise research for a more efficient mechanism to detecting open/free parking spots
+
+# Design Architecture
 ## Project Overview
 An application with GPS tracking that would be able to let users know when an open parking space, near your preferred location, is available.
 
@@ -35,12 +45,12 @@ Client-Server
 - Client may send the server an executable callback
      - Client will request information on specific lots.
 
-## Client Server
-![Architecture Design (1)](https://user-images.githubusercontent.com/107898813/231241042-559f6ce4-fe35-4d17-9b33-a5d4508bf7ad.jpg)
+## Architecture Model - Client Server 
+- Updated model
+![arch2](https://user-images.githubusercontent.com/107898813/233269676-bf9874a0-2c79-4797-af45-d27e5691ba1b.jpg)
 
 ## Conclusion
-Architectural Driver:
-Client-Server
+Architectural Driver: Client-Server
 
 Issues:
 - Could arise an overload of the server if redundancy is not built to handle all the data being sent in.

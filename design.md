@@ -1,9 +1,24 @@
-# Design Document
+## ★Future Work★ [May 2023]
+To keep the integrity of documentation this notice is posted as an overiew of changes made and features not implemented.
 
+* Switch from a local search on MapKit to a custom annotation search. 
+    * database for campus buildings' closest parking lots based on permit type
+* Map parking lot annotations and reroute polyline to chosen parking lot 
+* Update real-time for duration to get from user location to destination 
+* Send notifications to user if closer parking is found if desired 
+
+**Arduino, WIFI module, and sensor are not compatible with each other for the goals of this project**
+* If troubleshooting works connect Arduino and web server to communicate with app 
+* Otherwise research for a more efficient mechanism to detecting open/free parking spots
+
+### Changes to Documentation 
+- Updated Architecture Model from feedback 
+
+# Design Document
 ## Architecture Model
 ![arch2](https://user-images.githubusercontent.com/107898813/233269676-bf9874a0-2c79-4797-af45-d27e5691ba1b.jpg)
 
-The chosen architecture for the application "Aggie Park" is client server model with 3 major programs driving the architecture. The ultrasonic sensor detects a specific distance when a car passes it and in turn sends it to the web server to translate it to the database to keep track of the number of cars going in and out of the parking lot. In the app the user is able to request navigation to their desired destination and get info on the number of parking spots available from the web server. Notifications are sent when a closer parking space is found as well. 
+The chosen architecture for the application "Aggie Park" is client server model with 3 major programs driving the architecture. The ultrasonic sensor detects a specific distance when a car passes it and in turn, sends it to the web server to translate it to the database to keep track of the number of cars going in and out of the parking lot. In the app the user is able to request navigation to their desired destination and get info on the number of parking spots available from the web server. Notifications are sent when a closer parking space is found as well. 
 
 ### Parking App (IOS Application)
 Swift is responsible for the user interface of the app. It provides an intuitive and user-friendly way for users to search for available parking spaces. It will also communicate with the Arduino code and the web server to retrieve and display information about available parking spaces. Functions of the app include navigation, interactive map of NMSU, and settings to change certain functionalities of the app. 
@@ -15,8 +30,7 @@ The Arduino is responsible for collecting and transmitting data from sensors loc
 2 sensors will be placed in the entrance and exit to keep track of the number of cars, rather than having a sensor in each parking space. 
 
 ### Web Server (Java)
-The web server is the backbone of the parking app, by providing a centralized location for storing and accessing information about available parking spaces. The web server communicates with Swift and the Arduino to provide real-time updates on parking availability.
-This is the main web server that will get send the info from the Arduino, to then, update the parking app.
+The web server is the backbone of the parking app, by providing a centralized location for storing and accessing information about available parking spaces. The web server communicates with Swift and the Arduino to provide real-time updates on parking availability. This is the main web server that will get send the info from the Arduino, to then, update the parking app.
 
 ## Major Classes / Components
 
