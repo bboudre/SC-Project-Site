@@ -1,3 +1,16 @@
+## ★Future Work★ [May 2023]
+To keep the integrity of documentation this notice is posted as an overiew of changes made and features not implemented.
+
+* Switch from a local search on MapKit to a custom annotation search. 
+    * database for campus buildings' closest parking lots based on permit type
+* Map parking lot annotations and reroute polyline to chosen parking lot 
+* Update real-time for duration to get from user location to destination 
+* Send notifications to user if closer parking is found if desired 
+
+**Arduino, WIFI module, and sensor are not compatible with each other for the goals of this project**
+* If troubleshooting works connect Arduino and web server to communicate with app 
+* Otherwise research for a more efficient mechanism to detecting open/free parking spots
+
 # Requirements
 
 ## Introduction
